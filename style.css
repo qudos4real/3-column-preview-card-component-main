@@ -1,0 +1,31 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.big_container {
+  width: 90%;
+  margin: auto;
+}
+.container {
+    padding: 15%;
+}
+.first {
+    background-color: hsl(31, 77%, 52%);
+}
+.second {
+    background-color: hsl(184, 100%, 22%);
+}
+.third {
+    background-color: hsl(179, 100%, 13%);
+}
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 150%;
+}

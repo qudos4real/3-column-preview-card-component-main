@@ -7,25 +7,88 @@
     color: hsl(228, 45%, 44%);
 }
 .big_container {
-  width: 90%;
-  margin: auto;
+    width: 90%;
+    margin: 50px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
+
 .container {
     padding: 15%;
+}
+.container:first-of-type{
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0px 0;
+    -moz-border-radius: 10px 10px 0px 0;
+    -ms-border-radius: 10px 10px 0px 0;
+    -o-border-radius: 10px 10px 0px 0;
+}
+.third{
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
 }
 .first {
     background-color: hsl(31, 77%, 52%);
 }
+
+
 .second {
     background-color: hsl(184, 100%, 22%);
 }
+
+
 .third {
+    background-color: hsl(179, 100%, 13%);
+}
+.one {
+    color: hsl(31, 77%, 52%);
+}
+.two {
+    color: hsl(184, 100%, 22%);
+}
+.three {
+    color: hsl(179, 100%, 13%);
+}
+.one:active {
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+.two:active {
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+.three:active {
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
     background-color: hsl(179, 100%, 13%);
 }
 h1 {
     font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
 }
+
 p {
     font-family: 'Lexend Deca', sans-serif;
     line-height: 150%;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+    font-size: 18px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
 }
